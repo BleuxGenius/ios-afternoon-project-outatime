@@ -10,15 +10,20 @@ import UIKit
 
 class TimeCircuitViewController: UIViewController {
 
-    @IBOutlet weak var timeCircuitLabel: UILabel!
-    @IBOutlet weak var datePicker: UIPickerView!
+    @IBOutlet weak var destinationTimeLabel: UILabel!
+    @IBOutlet weak var destinationTimeTextField: UITextField!
+    @IBOutlet weak var presentTimeLabel: UILabel!
+    @IBOutlet weak var presentTimeTextField: UITextField!
+    @IBOutlet weak var lastTimeDepartedLabel: UILabel!
+    @IBOutlet weak var lastTimeDepartedTextField: UITextField!
+    @IBOutlet weak var speedLabel: UILabel!
+    @IBOutlet weak var speedTextField: UITextField!
     
+    @IBOutlet weak var setDestinationButtonTapped: UIButton!
     @IBAction func travelBackButtonTapped(_ sender: UIButton) {
         
     }
-    @IBAction func datePickerTapped(_ sender: UIPickerView) {
-        
-    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 

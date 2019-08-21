@@ -84,11 +84,25 @@
                                 <rect key="frame" x="159" y="832" width="98" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="TRAVEL BACK"/>
+                                <connections>
+                                    <action selector="travelBackButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HOR-eI-NXO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="destinationTimeLabel" destination="Z2h-bz-xUt" id="HhJ-4i-Nbc"/>
+                        <outlet property="destinationTimeTextField" destination="lfo-7g-bBh" id="xoQ-ZF-CIE"/>
+                        <outlet property="lastTimeDepartedLabel" destination="Nrr-Uh-Nad" id="jhS-ku-dAM"/>
+                        <outlet property="lastTimeDepartedTextField" destination="b7e-Qv-ChM" id="tDz-by-88q"/>
+                        <outlet property="presentTimeLabel" destination="vAl-Ut-Kwj" id="hpE-8N-NIA"/>
+                        <outlet property="presentTimeTextField" destination="Ias-jl-i7f" id="cCt-5e-ybp"/>
+                        <outlet property="setDestinationButtonTapped" destination="FdP-1d-GAi" id="wv8-2D-njj"/>
+                        <outlet property="speedLabel" destination="Uwn-b5-eoV" id="cKa-c1-VFW"/>
+                        <outlet property="speedTextField" destination="CKs-hh-aeI" id="YVX-7a-J3z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -127,6 +141,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cVb-AY-Vh3"/>
                     </view>
+                    <connections>
+                        <outlet property="cancelButtonTapped" destination="NfA-bU-AgR" id="UTZ-sh-UFe"/>
+                        <outlet property="doneButtonTapped" destination="gIe-UF-btP" id="yuH-Yw-JWH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CT5-hJ-h0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
