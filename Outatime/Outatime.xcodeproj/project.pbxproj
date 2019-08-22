@@ -61,10 +61,10 @@
 				E531347D230DDCF900013E61 /* TimeCircuitViewController.swift */,
 				E531347F230DDD1C00013E61 /* DatePickerViewController.swift */,
 				E531346F230DDC6600013E61 /* Main.storyboard */,
+				E5313481230DDF2A00013E61 /* digital-7.ttf */,
+				E5313477230DDC6900013E61 /* Info.plist */,
 				E5313472230DDC6900013E61 /* Assets.xcassets */,
 				E5313474230DDC6900013E61 /* LaunchScreen.storyboard */,
-				E5313477230DDC6900013E61 /* Info.plist */,
-				E5313481230DDF2A00013E61 /* digital-7.ttf */,
 			);
 			path = Outatime;
 			sourceTree = "<group>";

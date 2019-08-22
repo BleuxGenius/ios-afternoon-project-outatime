@@ -23,11 +23,24 @@ class TimeCircuitViewController: UIViewController {
     @IBAction func travelBackButtonTapped(_ sender: UIButton) {
         
     }
-   
+    
+    var dateformatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy.MMMM.dd AD hh:mm aaa"
+        formatter.timeZone = TimeZone(secondsFromGMT: 0)
+        return formatter
+    }()
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        var currentSpeed: Int = 0
+        speedLabel.text = "/(currentSpeed) MPH"
+        
         // Do any additional setup after loading the view.
+        
+        lastTimeDepartedLabel.text = "--- -- ---"
     }
     
 
@@ -40,5 +53,6 @@ class TimeCircuitViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
 
 }
