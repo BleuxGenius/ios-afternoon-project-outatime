@@ -23,7 +23,7 @@ class DatePickerViewController: UIViewController {
         print("cancel")
     }
     @IBAction func doneButtonTapped(_ sender: Any) {
-        DatePickerDelegate.self
+        DatePickerDelegate?.self
     }
     
     var delegate = DatePickerDelegate?.self

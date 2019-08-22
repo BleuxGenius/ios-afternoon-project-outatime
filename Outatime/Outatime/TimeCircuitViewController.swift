@@ -34,7 +34,8 @@ class TimeCircuitViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var currentSpeed: String = ""
+        var currentSpeed: String = "0"
+        
         speedTextField.text = "\(currentSpeed) MPH"
         
         // Do any additional setup after loading the view.
@@ -56,19 +57,25 @@ class TimeCircuitViewController: UIViewController {
 
 extension TimeCircuitViewController : DatePickerDelegate {
     func destinationDateWasChosen(Date: Date) {
-        <#code#>
+        destinationTimeLabel.text = destinationTimeTextField.text
+    
     }
     
     func lastTimeDeparted() {
-        <#code#>
+        lastTimeDepartedLabel.text = lastTimeDepartedTextField.text
     }
     
     func presentTime(Date: Date) {
-        <#code#>
+        presentTimeLabel.text = presentTimeTextField.text
     }
     
     func speed() {
-        <#code#>
+        speedLabel.text = speedTextField.text
     }
     
+}
+func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == ModalDestinationDatePickerSegue {
+            let TimeCircuitViewController = segue.destination as! TimeCircuitViewController   {
+    TimeCircuitViewController.delegate = TimeCircuitViewController.self
 }
