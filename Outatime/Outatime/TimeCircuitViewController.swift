@@ -18,7 +18,6 @@ class TimeCircuitViewController: UIViewController {
     @IBOutlet weak var lastTimeDepartedTextField: UITextField!
     @IBOutlet weak var speedLabel: UILabel!
     @IBOutlet weak var speedTextField: UITextField!
-    
     @IBOutlet weak var setDestinationButtonTapped: UIButton!
     @IBAction func travelBackButtonTapped(_ sender: UIButton) {
         
@@ -35,15 +34,13 @@ class TimeCircuitViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var currentSpeed: Int = 0
+        var currentSpeed: String = ""
         speedTextField.text = "\(currentSpeed) MPH"
         
         // Do any additional setup after loading the view.
         
         lastTimeDepartedLabel.text = "--- -- ---"
     }
-    
-
     /*
     // MARK: - Navigation
 
@@ -53,10 +50,25 @@ class TimeCircuitViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+            
+        }
+        
 
-
-}
-
-extension TimeCircuitViewController {
-    func 
+extension TimeCircuitViewController : DatePickerDelegate {
+    func destinationDateWasChosen(Date: Date) {
+        <#code#>
+    }
+    
+    func lastTimeDeparted() {
+        <#code#>
+    }
+    
+    func presentTime(Date: Date) {
+        <#code#>
+    }
+    
+    func speed() {
+        <#code#>
+    }
+    
 }

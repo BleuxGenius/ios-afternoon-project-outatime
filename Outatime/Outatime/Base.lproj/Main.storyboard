@@ -131,12 +131,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
                                         <state key="normal" title="Cancel"/>
                                         <connections>
+                                            <action selector="cancelButtonTapped:" destination="Hdu-vk-rBG" eventType="touchUpInside" id="Tjx-nf-Fdh"/>
                                             <segue destination="BYZ-38-t0r" kind="show" id="GNS-lX-uui"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIe-UF-btP">
                                         <rect key="frame" x="290" y="0.0" width="37" height="30"/>
                                         <state key="normal" title="Done"/>
+                                        <connections>
+                                            <action selector="doneButtonTapped:" destination="Hdu-vk-rBG" eventType="touchUpInside" id="1Jg-wr-ZoF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -144,10 +148,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cVb-AY-Vh3"/>
                     </view>
-                    <connections>
-                        <outlet property="cancelButtonTapped" destination="NfA-bU-AgR" id="UTZ-sh-UFe"/>
-                        <outlet property="doneButtonTapped" destination="gIe-UF-btP" id="yuH-Yw-JWH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CT5-hJ-h0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
