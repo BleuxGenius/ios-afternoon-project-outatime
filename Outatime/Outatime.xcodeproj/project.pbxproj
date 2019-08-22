@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5240579230EEB0B009E2BDE /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5313481230DDF2A00013E61 /* digital-7.ttf */; };
+		E524057A230EEB2D009E2BDE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5240577230EEA41009E2BDE /* Info.plist */; };
 		E531346C230DDC6600013E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531346B230DDC6600013E61 /* AppDelegate.swift */; };
 		E5313471230DDC6600013E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E531346F230DDC6600013E61 /* Main.storyboard */; };
 		E5313473230DDC6900013E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5313472230DDC6900013E61 /* Assets.xcassets */; };
@@ -16,12 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5240576230EEA41009E2BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		E5313468230DDC6600013E61 /* Outatime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outatime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E531346B230DDC6600013E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5313470230DDC6600013E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5313472230DDC6900013E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5313475230DDC6900013E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E5313477230DDC6900013E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E531347D230DDCF900013E61 /* TimeCircuitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCircuitViewController.swift; sourceTree = "<group>"; };
 		E531347F230DDD1C00013E61 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		E5313481230DDF2A00013E61 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7.ttf"; path = "../../../../Downloads/digital-7.ttf"; sourceTree = "<group>"; };
@@ -62,7 +64,7 @@
 				E531347F230DDD1C00013E61 /* DatePickerViewController.swift */,
 				E531346F230DDC6600013E61 /* Main.storyboard */,
 				E5313481230DDF2A00013E61 /* digital-7.ttf */,
-				E5313477230DDC6900013E61 /* Info.plist */,
+				E5240577230EEA41009E2BDE /* Info.plist */,
 				E5313472230DDC6900013E61 /* Assets.xcassets */,
 				E5313474230DDC6900013E61 /* LaunchScreen.storyboard */,
 			);
@@ -130,6 +132,8 @@
 				E5313476230DDC6900013E61 /* LaunchScreen.storyboard in Resources */,
 				E5313473230DDC6900013E61 /* Assets.xcassets in Resources */,
 				E5313471230DDC6600013E61 /* Main.storyboard in Resources */,
+				E524057A230EEB2D009E2BDE /* Info.plist in Resources */,
+				E5240579230EEB0B009E2BDE /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +153,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E5240577230EEA41009E2BDE /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5240576230EEA41009E2BDE /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		E531346F230DDC6600013E61 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
