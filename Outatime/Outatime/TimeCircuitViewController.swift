@@ -36,7 +36,7 @@ class TimeCircuitViewController: UIViewController {
         super.viewDidLoad()
 
         var currentSpeed: Int = 0
-        speedLabel.text = "/(currentSpeed) MPH"
+        speedTextField.text = "\(currentSpeed) MPH"
         
         // Do any additional setup after loading the view.
         
@@ -55,4 +55,8 @@ class TimeCircuitViewController: UIViewController {
     */
 
 
+}
+
+extension TimeCircuitViewController {
+    func 
 }
